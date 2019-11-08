@@ -26,6 +26,94 @@
             android:orientation="vertical">
 
 
+
+
+
+            <!--f3wgq5-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+
+                <LinearLayout style="@style/linearlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/f3wgq5" />
+
+
+                    <EditText
+                        android:id="@+id/f3wgq5"
+                        style="@style/textInput"
+
+                        android:inputType="textPersonName"
+
+                        android:digits="abcdefghijklmnopqrstuvwxyz "
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/f3wgq5"
+
+                  />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!--f3wgq6-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+
+                <LinearLayout style="@style/linearlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/f3wgq6" />
+
+
+                    <EditText
+                        android:id="@+id/f3wgq6"
+                        style="@style/textInput"
+
+                        android:inputType="textPersonName"
+
+                        android:digits="abcdefghijklmnopqrstuvwxyz "
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/f3wgq6"
+
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!--f3wgq7-->
+            <android.support.v7.widget.CardView style="@style/cardView">
+
+
+                <LinearLayout style="@style/linearlayout_view_wt_bound">
+
+                    <TextView
+                        style="@style/i_textview"
+                        android:text="@string/f3wgq7" />
+
+
+
+                    <com.edittextpicker.aliazaz.EditTextPicker
+                        android:id="@+id/f3wgq7"
+                        style="@style/textInput"
+                        android:inputType="number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/number"
+                        android:maxLength="3"
+                        app:maxValue="500"
+                        app:minValue="1"
+                        app:type="range" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
             <!--f3wgq1-->
             <android.support.v7.widget.CardView style="@style/cardView">
 

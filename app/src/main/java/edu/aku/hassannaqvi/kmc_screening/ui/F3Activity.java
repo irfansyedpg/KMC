@@ -96,6 +96,14 @@ public class F3Activity extends AppCompatActivity {
 
         f1.put("f3wgq4", bi.f3wgq4a.isChecked() ? "1" : bi.f3wgq4b.isChecked() ? "2" : bi.f3wgq4c.isChecked() ? "3"
           : "0");
+
+
+        f1.put("f3wgq5", bi.f3wgq5.getText().toString());
+
+        f1.put("f3wgq6", bi.f3wgq6.getText().toString());
+
+        f1.put("f3wgq7", bi.f3wgq7.getText().toString());
+
         MainApp.fc.setF3(String.valueOf(f1));
 
     }
